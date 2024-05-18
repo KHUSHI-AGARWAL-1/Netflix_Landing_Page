@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+#head{
+   background-image:linear-gradient(to right, rgba(10, 10, 10, 0.575), rgba(0, 0, 0, 0.89)),
+    url(net.jpg);
+    height: 755px;
+    width:100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(1.53);
+    border-bottom: 10px solid rgb(22, 21, 21);
+}
+nav{
+    display: flex;
+}
+nav img{
+    height: 48px;
+    margin-left: 60px;
+    margin-top: 10px;
+    
+}
+#sign{
+    background-color: rgb(158, 30, 30);
+    font-size: 15px;
+    line-height: 5px;
+    height: 55px;
+    color: white;
+}
+ .dropdown{  
+     margin-right: 100px;
+    background: none;
+background:none;
+font-size: 15px;
+color: white;
+
+ }   
+ .dropdown option{    
+    background-color: black;
+ }
+
+.btns{
+    position: absolute;
+    right:100px;
+color: white;
+text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.btns:hover{
+    cursor: pointer;
+}
+#text1{
+    color:rgb(159, 151, 151);
+    margin-top: 150px;
+    margin-left: 100px;
+}
+#one{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 64px;
+}
+#sec{
+    text-align: center;
+    font-weight: lighter;
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 5px;
+}
+#third{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: lighter;
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+input{
+    width:500px;
+    height: 70px;
+}
+.enter{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   padding-top: 20px;
+}
+.enter button{
+    width:245.5px;
+    height: 70px;
+    background-color: rgb(218, 40, 40);
+    color:aliceblue;
+    font-size: 30px;
+    font-weight: 300px;
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+border: 0px;
+}
+.enter button:hover{
+    cursor: pointer;
+}
+.boxes{
+    width:100%;
+    height: 485px;
+    background-color: black;
+    color: white;
+    border-bottom: 10px solid rgb(52, 51, 51);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}.images{
+    height: 330px;
+    margin-bottom:80px;
+}
+.head1{
+font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+font-size: 50px;
+font-weight: lighter;
+padding-right: 180px;
+}
+.head2{
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+font-size: 25px;
+font-weight: lighter;
+padding-top: 20px;
+}
+.sections{
+    margin-bottom:100px;
+    margin-left: 100px;
+}
+#img3{
+    margin-top: 100px;
+}
+#faqsec{
+    width:100%;
+   
+    height: 1000px;
+    background-color: black;
+    color: white;
+    border-bottom: 10px solid  grey; /* margin-top: 30px; */
+}
+
+#faqsec h1{
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+text-align: center;
+font-size: 50px;
+font-weight: normal;
+padding-top:80px ;
+margin-left:100px ;
+margin-bottom:50px ;
+}
+#faqd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#faqd a{
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    color: white;
+    text-decoration: none;
+  
+}
+.faqques{
+    margin: auto;
+    
+}
+.block:hover{
+    cursor: pointer;
+}
+.block{
+  font-size: 26px;
+    background-color: rgb(48,48,48);
+    border-radius: 1px;
+    margin-top: 10px;
+    margin-left: 50px;
+    border: 1 px solid grey;
+    height: 68px;
+    width: 815px;
+    padding: 3px;
+    padding-left: 25px;
+    padding-top: 15px;
+}#faqsec h3{
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-weight: normal;
+    text-align: center;
+    padding-top: 50px;
+}
+#footer{
+    width:100%;
+   font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    height: 380px;
+    background-color: black;
+}
+#footer p{
+    color: rgb(115, 115, 115);
+    font-weight: normal;
+    font-size: 16px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-left: 300px;
+}
+#grid{
+    margin-left: 300px;
+    font-size: 13px;
+    width: 900px;
+    height: 128px;
+    display: grid;  
+    grid-template-columns: 213px 213px 213px 213px;
+}
+.foot{
+    color:rgb(115, 115, 115);
+}
+#lastbtn{
+    margin-right: 1020px;
+}
+#bottom{
+    color:rgb(115, 115, 115);
+    margin-left: 300px;
+    margin-top: 100px;
+    font-size: 13px;
+}
+
+
+
+
